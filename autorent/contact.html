@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/a2c0d0cd3d.js" crossorigin="anonymous"></script>
+    <title>RentACar.com</title>
+    <link rel="stylesheet" href="/css/aos.css" />
+</head>
+<body>
+    <div class="col-full scroll-nav hide">
+        <div class="col-fix top-nav hide" >
+            <div class="logo">
+                <h1>RENT<span>A</span>CAR</h1>
+                <a href="##"  class="menu hideMenu" onclick="showNav()"><i class="fas fa-bars"></i></a>
+            </div>
+            <div class="nav-bar">
+                <ul>
+                    <li class=" hideNav"><a href="index.html" class="nav">Home</a></li>
+                    <li class=" hideNav"><a href="about.html" class="nav">About</a></li>
+                    <li class=" hideNav"><a href="pricing.html" class="nav">Pricing</a></li>
+                    <li class=" hideNav"><a href="car.html" class="nav">Our Car</a></li>
+                    <li class=" hideNav"><a href="blog.html" class="nav">Blog</a></li>
+                    <li class=" hideNav"><a href="contact.html" class="nav">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-full top-sec">
+            <div class="col-fix top-nav" >
+                <div class="logo"><h1>RENT<span>A</span>CAR</h1></div>
+                <div class="nav-bar">
+                    <ul>
+                        <li><a href="index.html" >Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="car.html" >Our Car</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-fix page-info">
+                <h1>READ OUR BLOG</h1>
+            </div>
+    </div>
+    <div class="col-full">
+        <div class="col-fix contact-info">
+            <div class="contact-box">
+                <i class="fas fa-map"></i>
+                <h1>Address:</h1>
+                <p>120 Ease 33th Street, Fake 842 California 10029</p>
+            </div>
+            <div class="contact-box center-box">
+                <i class="fas fa-mobile"></i>
+                <h1>Phone</h1>
+                <p>+ 1243 3433 87</p>
+            </div>
+            <div class="contact-box">
+                <i class="far fa-envelope"></i>
+                <h1>Email:</h1>
+                <p>info@yoursite.com</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-full contact-full">
+            <h1>If you got any questions</h1>
+            <h1>please do not hesitate to send us a message</h1>
+        <div class="col-fix contact-form">
+            <form action="">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <input type="text" placeholder="Subject">
+                <textarea name="" id="" cols="30" rows="10">Message</textarea>
+                <input type="button" value="Send Message" class="message-btn">
+            </form>
+        </div>
+    </div>
+    <div class="col-full fix-map">
+        <div class="col-full google-map" id="googleMap">
+
+        </div>
+    </div>
+    <div class="col-full fot-full">
+        <div class="col-fix fot-fix">
+            <div class="fot-box">
+                <h1>About RentACar</h1>
+                <p>
+                    Far far away, behind the word mountains, 
+                    far from the countries Vokalia and Consonantia,
+                     there live the blind texts.
+                </p>
+                <div class="social-con" data-aos="fade-up">
+                <a href="" class="social-btn" ><i class="fab fa-facebook"></i></a>
+                <a href="" class="social-btn" ><i class="fab fa-twitter"></i></a>
+                <a href="" class="social-btn" ><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="fot-box">
+                <h1>Information</h1>
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Term and Conditions</a></li>
+                    <li><a href="">Best Price Guarantee</a></li>
+                    <li><a href="">Privacy & Cookies Policy</a></li>
+                </ul>
+               
+            </div>
+            <div class="fot-box">
+                <h1>Customer Support</h1>
+                <ul>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Payment Option</a></li>
+                    <li><a href="">Booking Tips</a></li>
+                    <li><a href="">How it works</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="fot-box">
+                <h1>Have a Question?</h1>
+                <ul>
+                    <li><a href="">203 Fake St. Mountain View, San Frencisco, California, USA</a></li>
+                    <li><a href="">+2 393 3949 210</a></li>
+                    <li><a href="">info@yourdomain.com</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-fix copyright">
+            <p>Copyright &copy;2020 All Rights Reserved | This template is made by <span>AdilZaib</span></p>
+        </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="/js/aos.js"></script>
+    <script>
+        AOS.init({
+            offset:100,
+            duration:1000,
+        });
+    </script>
+    <script>
+        function myMap() {
+        var mapProp= {
+          center:new google.maps.LatLng(51.508742,-0.120850),
+          zoom:5,
+        };
+        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+        }
+        </script>
+        
+        <script src="https://maps.googleapis.com/maps/api/js?AIzaSyDFH52etwTGgXP49lNHKoezT8y1HddJd9w&callback=myMap"></script>
+</body>
+</html>

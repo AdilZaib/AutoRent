@@ -1,0 +1,1857 @@
+*,h1,ul,li,a
+{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+body
+{
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+}
+@media only screen and (max-width:749px) and (min-width: 270px)
+ {
+    .col-full
+    {
+        width:100%;
+        margin:0 auto;
+        z-index:4;
+    }
+    .col-fix
+    {
+        max-width:1150px;
+        z-index:4;
+        margin:0 auto;
+    }
+    .top-sec .top-nav 
+    {
+        display:none;
+    }
+    .top-sec .top-info > div 
+    {
+        width:90%;
+        padding:0 20px; 
+        margin:30px 0;
+        display:block;
+    }
+    .scroll-nav.hide
+   {
+       width:100%;
+       margin-top:0;
+       background-color:rgb(255, 255, 255); 
+   }
+   .scroll-nav .logo h1 
+   {
+       padding:0 0 0 30px;
+   }
+   .scroll-nav .top-nav .logo a.menu 
+   {
+       display:block !important;
+   }
+  
+   .scroll-nav .top-nav .nav-bar 
+   {
+       text-align:center;
+       padding:0;
+       width:100%;
+       position: relative;
+       top:20px;
+   }
+   
+   .scroll-nav .top-nav .nav-bar ul li.hideNav 
+   {
+       display:none;
+   }
+   .scroll-nav .top-nav .nav-bar ul li.showNav
+   {
+       display:block;
+   }
+   .scroll-nav .top-nav .nav-bar ul li 
+   {
+       background-color:white;
+       text-align:left;
+         padding:0 20px;
+   }
+   .scroll-nav .top-nav .nav-bar ul li a 
+   {
+       display:block;
+   }
+  
+   .top-sec .top-info a.stream-btn 
+   {
+       padding:15px 25px;
+   }
+   .top-sec .top-info a 
+   {
+       font-size:.9rem;
+   }
+    .top-sec .top-info .top-form 
+    {
+        width:90%;
+        margin-left:20px;
+    }
+    .col-full .modalSearch .search-box 
+    {
+        margin:0 auto;
+        width:90%;
+        display:block;
+    }
+    .service-full .service-bar .service-box 
+    {
+        margin:0 auto;
+        text-align:center;
+        width:90%;
+    }
+    .service-full .service-bar .service-box p 
+    {
+        padding:0;
+    }
+    .col-full .choose-sec .choose-box 
+    {
+        margin:0 auto;
+        width:90%;
+        display:block;
+    }
+    .work-sec .work-bar 
+    {
+        text-align:center;
+    }
+    .work-sec .work-bar .work-box 
+    {
+        width:90% !important;
+        display:block;
+        margin:10px 0;
+    }
+    .testimonial .slider .test-box 
+    {
+        width:90% !important;
+        display:block;
+    }
+    .col-full .about 
+    {
+        text-align:center;
+        overflow:hidden;
+    }
+    .col-full .about > div 
+    {
+        width:90% !important;
+        margin:0 auto !important;
+    }
+    .col-full .about .about-img 
+    {
+        padding:400px 140px;
+        overflow:hidden;
+    }
+    .col-full .blog .blog-box 
+    {
+        width:90%;
+        margin:0 auto;
+        display:block;
+    }
+    .fot-full .fot-fix .fot-box 
+    {
+        width:90%;
+        margin:0 auto;
+        display:block;
+    }
+    .col-full .pagination ul li 
+    {
+        display:inline-block;
+        margin:0px;
+    }
+    .col-full .pagination ul li a 
+    {
+        height:30px;
+        width:30px;
+        border:1px solid orange;
+        color:orange;
+        border-radius:50%;
+        display: inline-block;
+        line-height:30px;
+    }
+    .col-full .pagination ul li a.active 
+    {
+        background-color:orange;
+        color:white;
+    }
+   .col-full  .contact-info .contact-box 
+    {
+        width:90%;
+    }
+    .contact-full .contact-form 
+    {
+        width:90%;
+        padding:20px 20px;
+    }
+    .contact-full .contact-form input.message-btn 
+    {
+        width:100% !important;
+    }
+    .right .contact-form input.message-btn 
+    {
+        width:100% !important;
+    }
+    .fix-map .google-map 
+    {
+        width:90%;
+    }
+    .col-full .blog-sec .right 
+    {
+        width:100%;
+        padding:0 10px;
+    }
+    .col-full .blog-sec .right > h1 
+    {
+        margin-top:40px;
+        text-align:left;
+    }
+    .col-full .blog-sec .right p 
+    {
+        text-align:justify;
+    }
+    .col-full .blog-sec 
+    {
+        text-align:center;
+    }
+    .col-full .blog-sec .left 
+    {
+        width:100%;
+    }
+    .blog-sec .left .recent .recent-main > span 
+    {
+        display:block;
+        padding:50px 0;
+        margin:0 0 30px 0;
+        font-weight: 600;
+        color:gray;
+        font-size:2rem;
+    }
+    .fot-full .fot-fix .fot-box 
+    {
+        width:48%;
+        display:inline-block;
+    }
+    .col-full .blog-sec .right .blog-writer > div 
+    {
+        width:100%;
+    }
+    .col-full .blog-sec .right .blog-writer .writer-img 
+    {
+        display:none;
+    }
+    .col-full .blog-sec .right .comment-box > div 
+    {
+        width:100%;
+    }
+    .col-full .blog-sec .right .comment-box .comment-img 
+    {
+        display:none;
+    }
+    .fot-full .fot-fix .fot-box 
+    {
+        width:90%;
+        display:block;
+    }
+    * MODAL CODE */ 
+/* The Modal (background) */
+.col-full .col-fix .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 0px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .col-full .modal .modal-content {
+    margin:0 auto;
+    text-align:center;
+    width: 100%;
+    overflow:hidden;
+  }
+  .col-full .modal .modal-content iframe 
+  {
+     width:95%;
+     height:200px;
+  
+  }
+  /* The Close Button */
+  .col-full .modal .modal-content .close {
+    color: gray;
+    float: right;
+    font-size: 3rem;
+    font-weight: bold;
+    padding:10px 20px;
+    border:0px solid transparent;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: orange;
+    text-decoration: none;
+    cursor: pointer;
+    padding:10px 20px;
+    
+  }
+  .close:after 
+  {
+      content:"";
+      display:table;
+      clear:both;
+  }
+/* END */
+ }
+@media only screen and (max-width:950px) and (min-width: 749px)
+ {
+    
+      .top-sec .top-nav 
+     {
+         display:none;
+     }
+     .scroll-nav .top-nav .nav-bar 
+     {
+         text-align:center;
+         padding:0;
+         position: relative;
+       top:20px;
+         width:100%;
+     }
+     .scroll-nav .top-nav .nav-bar ul li.hideNav 
+     {
+         display:none !important;
+     }
+     .scroll-nav .top-nav .nav-bar ul li.showNav
+     {
+         display:block !important;
+     }
+     .scroll-nav .top-nav .nav-bar ul li 
+     {
+         background-color:white;
+         text-align:left;
+         padding:0 20px;
+     }
+     .scroll-nav .top-nav .nav-bar ul li a 
+     {
+         display:block !important;
+     }
+    
+     .scroll-nav.hide
+    {
+        width:100%;
+        margin-top:0;
+        background-color:rgb(255, 255, 255); 
+    }
+    .scroll-nav .top-nav .logo h1 
+    {
+        padding:0 30px;
+    }
+    .scroll-nav .top-nav .logo a.hideMenu 
+    {
+        display:block !important;
+
+    }
+    .scroll-nav .top-nav .nav-bar ul li a
+    {
+        display:block;
+    }
+   .top-sec .top-info 
+    {
+        padding:180px 0;
+    }
+    .top-sec .top-info > div 
+    {
+        width:48%;
+        padding:0 30px;
+    }
+   .col-full .modalSearch .search-box 
+    {
+        margin:0 auto;
+        width:90%;
+        display:block;
+    }
+    .service-full .service-bar .service-box 
+    {
+        margin-right:0;
+    }
+    .service-full .service-bar .service-box span 
+    {
+        font-size:1rem;
+        font-weight: 600;
+        padding:0 5px;
+    }
+    .service-full .service-bar .service-box p
+    {
+        padding:10px 5px;
+    }
+    .service-full .choose-sec .choose-box a.order-btn 
+    {
+        margin:5px 0;
+    }
+    .col-full .testimonial .slider .test-box 
+    {
+        width:50%;
+        display:block;
+    }
+    .col-full .about .about-img 
+    {
+        
+        padding:450px 10px;
+    }
+    .col-full .blog .blog-box 
+    {
+        width:32%;
+        display:block;
+    }
+    .col-full .blog .main 
+    {
+        width:70%;
+        margin:0 auto;
+    }
+    .fot-full .fot-fix .fot-box 
+    {
+        width:23%;
+        display:block;
+        margin:0 5px;
+    }
+    .contact-full .contact-form 
+    {
+        width:90%;
+    }
+    .fix-map .google-map 
+    {
+        width:90%;
+    }
+    .col-full .blog-sec .right 
+    {
+        width:90%;
+    }
+    .col-full .blog-sec .right > h1 
+    {
+        margin-top:40px;
+        text-align:left;
+    }
+    .col-full .blog-sec .right p 
+    {
+        text-align:justify;
+    }
+    .col-full .blog-sec 
+    {
+        text-align:center;
+    }
+    .col-full .blog-sec .left 
+    {
+        width:90%;
+    }
+    .blog-sec .left .recent .recent-main > span 
+    {
+        display:block;
+        padding:50px 0;
+        margin:0 0 30px 0;
+        font-weight: 600;
+        color:gray;
+        font-size:2rem;
+    }
+    .fot-full .fot-fix .fot-box 
+    {
+        width:48%;
+        display:inline-block;
+    }
+    * MODAL CODE */ 
+/* The Modal (background) */
+.col-full .col-fix .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .col-full .modal .modal-content {
+    margin:0 auto;
+    text-align:center;
+    width: 80%;
+    overflow:hidden;
+  }
+  .col-full .modal .modal-content iframe 
+  {
+     width:80%;
+     height:400px;
+  
+  }
+  /* The Close Button */
+  .col-full  .modal .modal-content .close {
+    color: gray;
+    float: right;
+    font-size: 3rem;
+    font-weight: bold;
+    padding:10px 20px;
+    border:0px solid transparent;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: orange;
+    text-decoration: none;
+    cursor: pointer;
+    padding:10px 20px;
+    
+  }
+  .close:after 
+  {
+      content:"";
+      display:table;
+      clear:both;
+  }
+/* END */
+ }
+.col-full
+{
+    width:100%;
+    position: relative;
+}
+.col-fix
+{
+    max-width:1150px;
+    z-index:4;
+    margin:0 auto;
+}
+.top-sec 
+{
+    background-image: url(/img/jeep.jpg);
+    margin:0 auto;
+    padding:50px 0 50px 0;
+    /* Set a specific height */
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .move-x
+{
+    animation: moveX .6s ease-in-out;
+}
+@keyframes moveX
+{
+    0%
+    {
+        transform: translateX(-55px);
+    }
+    100%
+    {
+        transform: translateX(0px);
+    }
+}
+.move-y
+{
+    animation: moveY .6s ease-in-out;
+}
+@keyframes moveY
+{
+    0%
+    {
+        transform: translateY(55px);
+    }
+    100%
+    {
+        transform: translateY(0px);
+    }
+} */
+
+.scroll-nav .top-nav .logo h1 
+{
+    color:black;
+}
+.scroll-nav .top-nav  .logo a.menu 
+{
+    position:absolute;
+    right:3%;
+    top:20%;
+    padding:10px;
+    color:black;
+    font-weight: 600;
+}
+.scroll-nav .top-nav .logo a.hideMenu 
+{
+    display:none;
+}
+.scroll-nav 
+{
+    position:fixed;
+    top:0;
+    z-index:8;
+    background-color:white;
+    height: 80px;
+    padding:10px 0;
+    transition: margin-top .3s ease-in-out;
+    width:100%;
+}
+.scroll-nav .top-nav 
+{
+    max-width:1150px;
+}
+.show
+{
+    margin-top:0;
+   -webkit-box-shadow: 0px 10px 38px -12px rgba(158,158,158,1);
+    -moz-box-shadow: 0px 10px 38px -12px rgba(158,158,158,1);
+    box-shadow: 0px 10px 38px -12px rgba(158,158,158,1);
+    color:black !important;
+}
+.hide 
+{
+    margin-top:-100px;
+}
+
+.scroll-nav .top-nav .nav-bar ul li a.nav
+{
+    color:black;
+}
+.scroll-nav .top-nav .nav-bar ul li a.navshow
+{
+    display:none;
+}
+.nav-bg 
+{
+    position:fixed;
+    top:0;
+    z-index:8;
+    background-color:white;
+    padding:20px 0;
+}
+.top-nav
+{
+    margin:0 auto;
+    max-width:1120px;
+}
+.top-nav > div
+{
+    display:inline-block;
+    vertical-align: middle;
+}
+.top-nav .logo 
+{
+    width:20%;
+    padding:10px;
+    float:left;
+}
+.top-nav .logo::after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+.top-nav .logo h1 
+{
+    color:white;
+    font-size:1.3rem;
+}
+.top-nav .logo span 
+{
+    color:orange;
+    font-size:1.3rem;
+}
+.top-nav .nav-bar
+{
+    width:78%;
+    padding:10px;
+    text-align:right;
+}
+.top-nav .nav-bar ul li 
+{
+    display:inline-block;
+}
+.top-nav .nav-bar ul li a
+{
+    padding:15px;
+    color:white;
+    font-weight: 500;
+}
+.top-nav .nav-bar ul li a:hover 
+{
+    color:orange;
+}
+.top-info 
+{
+    padding:60px 10px;
+    margin:0 auto;
+}
+.top-info > div 
+{
+    display: inline-block;
+    vertical-align: top;
+}
+.top-detail
+{
+    width:65%;
+    text-align:left;
+}
+.top-detail h1
+{
+    color:white;
+    font-size:3.5rem;
+    font-weight: 300;
+}
+.top-detail p 
+{
+    font-size:1.2rem;
+    font-weight: 600;
+    color:white;
+    padding:10px 10px 10px 0;
+    line-height: 1.4;
+}
+.top-detail a 
+{
+    color:white;
+    display: inline-block;
+    vertical-align: middle;
+    margin:0 10px;
+}
+.top-detail .stream-btn 
+{
+    padding:25px 30px;
+    border-radius:50%;
+    background-color:orange;
+    color:white;
+    text-align:center;
+    margin:0 auto;
+}
+.top-detail .stream-btn i
+{
+    color:white;
+    font-size:1.5rem;
+}
+.top-form 
+{
+    width:33%;
+    padding:20px 30px;
+    background-color:white;
+    border-radius:5px;
+    text-align:left;
+}
+.top-form h1 
+{
+    font-size:1.5rem;
+    padding:15px 0;
+}
+.top-form span 
+{
+    display:block;
+    font-size:0.7rem;
+    font-weight: 600;
+}
+.top-form input 
+{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border:1px solid rgb(230, 230, 230);
+}
+.top-form select
+{
+    width:100%;
+    padding:10px;
+    margin:5px 0;
+    border:1px solid rgb(230, 230, 230);
+    
+    color:rgb(175, 172, 172);
+}
+.top-form form input::placeholder
+{
+    color:rgb(175, 172, 172);
+}
+.top-form form input[placeholder]
+{
+    color:rgb(175, 172, 172);
+}
+.top-form input.submit 
+{
+    background-color:orange;
+    color:white;
+    border:0;
+    padding:15px;
+    font-size:0.9rem;
+    font-weight: 600;
+}
+.modalSearch 
+{
+    margin: 0 auto;
+    padding:40px 0;
+    z-index:-1;
+}
+.modalSearch > div 
+{
+    display:inline-block;
+    width:19%;
+    padding:10px;
+}
+.modalSearch .search-box span
+{
+    display:block;
+    padding:10px 0;
+    font-weight: 600;
+    color:gray;
+}
+.modalSearch .search-box select
+{
+    width:100%;
+    padding:15px;
+    color:rgb(175, 172, 172);
+    border:1px solid rgb(230, 230, 230);
+}
+.modalSearch .search-box input.search 
+{
+    width:100%;
+    padding:15px;
+    background-color:orange;
+    color:white;
+    border:0;
+    font-size:1rem;
+    font-weight: 700;
+}
+.service-full 
+{
+    padding:0 0 50px 0;
+}
+.services 
+{
+    padding:80px 0 60px 0;
+    margin: 0 auto;
+    text-align:center;
+}
+.services span
+{
+    display:block;
+    color:orange;
+    font-weight: 600;
+    font-size:0.8rem;
+    letter-spacing: .1rem;
+}
+.services h1 
+{
+    padding:10px;
+    font-weight: 700;
+    font-size:2.5rem;
+    margin:0;
+}
+.service-bar 
+{
+    margin:0 auto;
+    text-align:center;
+}
+.service-bar > div 
+{
+    width:23.33%;
+    padding:10px 0px;
+    text-align:left;
+    display:inline-block;
+    margin-right:11px;
+}
+.service-box i
+{
+    font-size:2rem;
+    color:orange;
+    display:inline-block;
+    vertical-align: middle;
+}
+.service-box span 
+{
+    display:inline-block;
+    color:black;
+    font-weight: 500;
+    font-size:1.2rem;
+    padding:5px 5px 5px 20px;
+    vertical-align: middle;
+}
+.service-box p
+{
+    width:100%;
+    line-height:1.5;
+    color:gray;
+    font-size:1.1rem;
+    padding:10px 35px 10px 0px;
+    font-weight: 100;
+}
+.choose-sec 
+{
+    padding:20px;
+    text-align:center;
+}
+.choose-sec > .choose-box 
+{
+    display:inline-block;
+    width:23%;
+    margin:5px;
+    border:1px solid rgb(230, 230, 230);
+}
+.choose-box .car-img img 
+{
+    width:100%;
+}
+.choose-box .car-info 
+{
+    padding:20px;
+    text-align:center;
+}
+.choose-box .car-info h1 
+{
+    font-size:1.2rem;
+    padding:5px;
+    margin:0;
+}
+.choose-box .car-info span  
+{
+    display:block;
+    padding:5px;
+    font-size:0.7rem;
+    letter-spacing: .3rem;
+    color:gray;
+    margin:0 0 15px 0;
+}
+.choose-box .car-info a.order-btn 
+{
+    display: inline-block;
+    padding:10px 30px;
+    color:black;
+    border:1px solid rgb(230, 230, 230);
+    font-size:0.8rem;
+    transition: background-color .2s ease-in-out;
+    border-radius:5px;
+}
+.choose-box .car-info a.order-btn:hover 
+{
+    background-color:orange;
+    color:white;
+}
+.work-sec 
+{
+    background-image: url(/img/workbg.jpg);
+    background-size:cover;
+    padding:0 0 120px 0;
+    /* Set a specific height */
+    z-index:0;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.work-sec .services span
+{
+    color:white;
+}
+.work-sec .services h1 
+{
+    color:white;
+}
+.work-sec .work-bar 
+{
+    margin:0 auto;
+}
+.work-sec .work-bar > .work-box 
+{
+    display:inline-block;
+    text-align:center;
+    width:24%;
+}
+.work-sec .work-box a
+{
+    display:block;
+}
+.work-sec .work-box a i 
+{
+    color:white;
+    padding:25px;
+    color:white;
+    border:2px solid orange;
+    border-radius:50%;
+    font-size:2rem;
+}
+.work-sec .work-box h1 
+{
+    color:white;
+    font-size:1rem;
+    padding:10px;
+    margin:0;
+}
+.work-sec .work-box p 
+{
+    font-size:1.2rem;
+    line-height: 1.5;
+    color:white;
+    padding:0 20px;
+    margin:0;
+}
+.testimonial 
+{
+    margin:0 auto;
+    padding:20px 0 20px 0;
+    text-align:center;
+    overflow:hidden;
+}
+.testimonial .slider 
+{
+    max-width:1120px;
+}
+.testimonial .slider > .test-box 
+{
+    display: inline-block;
+    width:31%;
+    padding:40px 15px;
+    background-color:white;
+    margin:0 10px;
+    text-align:center;
+    -webkit-box-shadow: 7px -3px 11px -6px rgba(230,227,230,1);
+    -moz-box-shadow: 7px -3px 11px -6px rgba(230,227,230,1);
+    box-shadow: 7px -3px 11px -6px rgba(230,227,230,1);
+}
+.testimonial .slider{
+	display: none;
+}
+.testimonial .slider.active{
+	
+	display: block;
+	animation: slide 1s ease;
+}
+@keyframes slide{
+	0%{
+		opacity:0;
+		transform: translateX(-15px);
+	}
+	100%{
+	   opacity:1;
+		transform: translateX(0px);	
+	}
+}
+.bottom 
+{
+    margin:0 auto;
+    text-align:center;
+    padding:20px 0 80px 0;
+}
+.bottom .slide-btn 
+{
+    padding:1px 9px;
+    border-radius:50%;
+    margin:0 10px;
+    background-color:rgb(206, 206, 206);
+}
+.bottom .slide-btn:hover 
+{
+    cursor: pointer;
+}
+.bottom .slide-btn.active 
+{
+    background-color:orange;
+    border:0;
+}
+.test-box img 
+{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+}
+.test-box p 
+{
+    font-size:1.1rem;
+    padding:30px 30px 10px 30px;
+    line-height: 1.5;
+    color:rgb(128, 126, 126);
+}
+.test-box h2 
+{
+    color:orange;
+    font-size:1.3rem;
+    padding:7px;
+    margin:0;
+}
+.test-box span 
+{
+    display:block;
+    padding:5px;
+    color:rgb(206, 206, 206);
+    font-size:1rem;
+    font-weight: 600;
+}
+
+.about 
+{
+    margin:0 auto;
+    padding:0 0 40px 0;
+}
+.about > div 
+{
+    display:inline-block;
+    width:49%;
+    vertical-align: top;
+}
+.about-img 
+{
+    background-image: url(/img/about.jpg);
+    background-size:cover;
+    background-repeat:none;
+    background-position: center center;
+    max-width: 50%;
+    padding:350px 10px;
+    margin-left:10px;
+}
+/* .about-img img 
+{
+    width:100%;
+} */
+.about-info 
+{
+    padding:30px 25px 30px 30px;
+    text-align:left;
+}
+.about-info span 
+{
+    font-size:.75rem;
+    color:orange;
+    padding:10px;
+    display:block;
+    font-weight: 600;
+    letter-spacing: .1rem;
+}
+.about-info h1 
+{
+    font-size:2.4rem;
+    padding:10px;
+    margin:0;
+    color:rgb(56, 55, 55);
+}
+.about-info p 
+{
+    line-height: 1.8;
+    color:rgb(128, 126, 126);
+    padding:5px 0 5px 10px;
+    font-size:1.1rem;
+    margin:1px;
+}
+.about-info a.vehicle-btn 
+{
+    padding:10px;
+    margin:10px;
+    color:white;
+    display:inline-block;
+    background-color:orange;
+    border-radius:5px;
+    font-size:.9rem;
+    font-weight: 600;
+}
+.blog 
+{
+    margin:0 auto;
+    padding:0px 0 80px 0;
+}
+.blog > .blog-box 
+{
+    display:inline-block;
+    width:33%;
+    text-align:left;
+    padding:15px;
+}
+.blog-box .img-con img
+{
+    width:100%;
+}
+.blog-box span 
+{
+    display:block;
+    color:rgb(128, 126, 126);
+    padding:20px 0px;
+    font-size:.7rem;
+    font-weight: 600;
+    word-spacing: .4rem;
+}
+
+.blog-box h1 
+{
+    font-size:1.2rem;
+    padding:10px 0px;
+}
+.blog-box p 
+{
+    padding:10px 0px;
+    font-size:1.1rem;
+    color:rgb(56, 55, 55);
+    line-height: 1.5;
+}
+.fot-full 
+{
+    background-color:#000000;
+    color:white;
+    padding:40px 0 60px 0;
+}
+.fot-fix 
+{
+    margin:0 auto;
+}
+.fot-fix > .fot-box 
+{
+    display:inline-block;
+    width:23%;
+    vertical-align: top;
+    margin:0 7px;
+}
+.fot-box h1 
+{
+    padding:30px 5px;
+    font-size:1.5rem;
+    color:rgb(206, 206, 206);
+}
+.fot-box p 
+{
+    padding:5px 10px 5px 5px;
+    line-height: 1.5;
+    color:rgb(206, 206, 206);
+    font-size:1rem;
+}
+.fot-box .social-btn i
+{
+    display:inline-block;
+    color:rgb(44, 43, 43);
+    padding:10px;
+    font-size:2rem;
+    margin:30px 0 0 0;
+    transition: color .2s ease-in-out;
+}
+.fot-box .social-btn i:hover
+{
+    color:orange;
+}
+.fot-box ul li 
+{
+    padding:10px 5px;
+}
+.fot-box ul li a 
+{
+    color:rgb(206, 206, 206);
+    font-weight: 500;
+}
+.copyright 
+{
+    margin:0 auto;
+    text-align:center;
+    padding:70px 0;
+}
+.copyright p 
+{
+    color:rgb(206, 206, 206);
+    font-size:1.1rem;
+}
+.copyright p span 
+{
+    color:orange;
+}
+
+/* ABOUT.CSS */
+
+.top-sec .page-info 
+{
+    padding:150px;
+    text-align:left;
+}
+.top-sec .page-info h1 
+{
+    border-left:10px solid orange;
+    color:white;
+    padding:20px;
+    position: relative;
+    left:-100px;
+    top:100px;
+}
+/* BLOG.html*/
+
+.blog 
+{
+    text-align:center;
+}
+.blog .main 
+{
+    width:70%;
+}
+.blog .main a.continue-btn 
+{
+    display:block;
+    text-align:center;
+    color:black;
+    padding:20px 0;
+    font-size:.9rem;
+    font-weight: 600;
+}
+.pagination 
+{
+    text-align: center;
+    padding:0px 0 70px 0;
+}
+.pagination ul li 
+{
+    display:inline-block;
+    margin:5px;
+}
+.pagination ul li a 
+{
+    height:40px;
+    width:40px;
+    border:1px solid orange;
+    color:orange;
+    border-radius:50%;
+    display: inline-block;
+    line-height: 40px;
+}
+.pagination ul li a.active 
+{
+    background-color:orange;
+    color:white;
+}
+.contact-info 
+{
+    margin:0 auto;
+    padding:100px 0;
+    text-align:center;
+}
+.contact-info > .contact-box 
+{
+    width:25%;
+    display:inline-block;
+    padding:50px 20px;
+    text-align:center;
+    vertical-align: top;
+}
+.contact-info .center-box 
+{
+    border-right:1px solid rgb(231, 229, 229);
+    border-left:1px solid rgb(231, 229, 229);
+}
+.contact-box i 
+{
+    color:orange;
+    padding:10px;
+    font-size:1.4rem;
+}
+.contact-box h1 
+{
+    font-size:1.2rem;
+    padding:5px 0;
+}
+.contact-box p 
+{
+    text-align:center;
+    font-size:1rem;
+    color:rgb(128, 126, 126);
+    line-height: 1.5;
+    padding:0px 20px;
+}
+.contact-full 
+{
+    padding:30px 0 20px 0;
+    text-align:center;
+}
+.contact-full h1 
+{
+    font-size:1.8rem;
+    font-weight: 300;
+}
+.contact-form 
+{
+    margin:35px auto;
+    width:60%;
+    background-color:rgb(243, 242, 242);
+    padding:50px 50px;
+    text-align:left;
+}
+.contact-form input 
+{
+    padding:20px 10px;
+    width:100%;
+    margin:10px 0;
+    border:1px solid rgb(206, 206, 206);
+    border-radius:5px;
+}
+.contact-form textarea 
+{
+    padding:10px;
+    width:100%;
+    border:1px solid rgb(206, 206, 206);
+    border-radius:5px;
+}
+.contact-form input.message-btn 
+{
+    width:25% !important;
+    background-color:orange;
+    color:white;
+    font-size:.9rem;
+    font-weight: 600;
+}
+.fix-map 
+{
+    padding:50px 0;
+}
+.google-map
+{
+    margin:35px auto;
+    width:70%;
+    background-color:rgb(243, 242, 242);
+    padding:50px 50px;
+    text-align:left;
+    padding:250px 0;
+}
+
+
+/* Blog.html*/
+
+.blog-sec 
+{
+    margin:0 auto;
+    padding:130px 10px;
+}
+.blog-sec > div 
+{
+    display:inline-block;
+    vertical-align: top;
+}
+.blog-sec .left 
+{
+    width:25%;
+}
+
+.blog-sec .left form 
+{
+    padding:10px;
+    margin:0 0 70px 0;
+    background-color:rgb(206, 206, 206);
+    text-align:center;
+}
+.blog-sec .left form input 
+{
+    padding:15px;
+    border:1px solid rgb(230, 230, 230);
+    border-radius:5px;
+    width:100%;
+}
+.blog-sec .left h1 
+{
+    font-size:1.3rem;
+    font-weight: 400;
+    color:rgb(56, 55, 55);
+    padding:50px 0 10px 0;
+}
+.blog-sec .left  ul.cat li a 
+{
+    display:block;
+    text-align:left;
+    padding:10px 0;
+    border-bottom: 1px solid rgb(206, 206, 206);
+    color:rgb(44, 43, 43);
+}
+.blog-sec .left ul.cat li a span 
+{
+    float:right;
+    color:rgb(175, 172, 172);
+}
+.blog-sec .left .recent 
+{
+    width:100%;
+    padding:80px 0 30px 0;
+}
+.blog-sec .left .recent .recent-main > span 
+{
+    display:block;
+    padding:10px 0;
+    font-weight: 600;
+    color:gray;
+}
+.blog-sec .left .recent .recent-main 
+{
+    margin:10px 0;
+}
+.recent-main > div 
+{
+    display:inline-block;
+    vertical-align: top;
+}
+.recent-main .recent-img 
+{
+    width:30%;
+    padding:5px 0 0 0;
+}
+.recent-main .recent-img img 
+{
+    width:100%;
+}
+.recent-main .recent-info 
+{
+    width:68%;
+    text-align:left;
+}
+.recent-main .recent-info p 
+{
+    padding:0 10px 10px 10px;
+    font-size:1.1rem;
+    line-height: 1.5;
+}
+.recent-main .recent-info span 
+{
+    display:block;
+    padding:10px;
+    color:rgb(163, 163, 163);
+    font-size:.665rem;
+    word-spacing: .1rem;
+}
+.blog-sec .left .tag  li 
+{
+    display:inline-block;
+    margin: 10px 1px;
+}
+.blog-sec .left .tag  li a 
+{
+    padding:10px;
+    font-size:.6rem;
+    color:rgb(128, 126, 126);
+    border:1px solid rgb(206, 206, 206);
+    border-radius:5px;
+}
+.blog-sec .left > p 
+{
+    padding:10px 0;
+    color:rgb(128, 126, 126);
+    line-height: 1.5;
+    font-size:1rem;
+}
+.blog-sec .right 
+{
+    width:74%;
+    padding:0 20px 0 40px;
+}
+.blog-sec .right h1:first-child 
+{
+    padding:0 10px 10px 10px;
+}
+.blog-sec .right h1 
+{
+    padding:20px 10px 10px 10px;
+    font-size:2.3rem;
+    color:rgb(56, 55, 55);
+    font-weight: 300;
+}
+.blog-sec .right > p 
+{
+    padding:10px 10px 20px 10px;
+    color:rgb(128, 126, 126);
+    line-height: 1.8;
+    font-size:1.1rem;
+}
+.blog-sec .right .tag 
+{
+    margin:0 0 0 10px;
+}
+.blog-sec .right .tag  li 
+{
+    display:inline-block;
+    margin: 10px 1px;
+}
+.blog-sec .right .tag  li a 
+{
+    padding:10px;
+    font-size:.6rem;
+    color:rgb(128, 126, 126);
+    border:1px solid rgb(206, 206, 206);
+    border-radius:5px;
+}
+.right .blog-writer 
+{
+    padding:30px 0 50px 0;
+    background-color:rgb(248, 245, 245);
+    margin:45px 0 0 0;
+    text-align:left;
+}
+
+.right .blog-writer > div 
+{
+    display:inline-block;
+    vertical-align: top;
+}
+.right .blog-writer .writer-img 
+{
+    width:25%;
+    padding:25px;
+}
+.right .blog-writer .writer-img img 
+{
+    width:100%;
+}
+.right .blog-writer .writer-info 
+{
+    width:74%;
+    padding:10px 10px 0px 10px;
+}
+.right .blog-writer .writer-info h1 
+{
+    padding:10px 10px 10px 10px;
+    font-size:2.3rem;
+    color:rgb(56, 55, 55);
+    font-weight: 300;
+}
+.right .blog-writer .writer-info p
+{
+    padding:10px 10px 20px 10px;
+    color:rgb(128, 126, 126);
+    line-height: 1.8;
+    font-size:1.1rem;
+}
+.comment-sec 
+{
+    margin:20px 0 20px 0;
+}
+.comment-sec .comment-box > div 
+{
+    display:inline-block;
+    vertical-align: top;
+    margin:30px 0;
+}
+.comment-sec .comment-box .comment-img 
+{
+    width:10%;
+    padding:10px 10px;
+    text-align:center;
+    position: relative;
+}
+.comment-sec .comment-box .comment-img img 
+{
+    height:70px;
+    width:70px;
+    border-radius:50%;
+}
+.comment-sec .comment-box .comment-info 
+{
+    width:88%;
+    padding:0 20px;
+    text-align:left;
+}
+.comment-info h2    
+{
+    font-size:1.5rem;
+    font-weight: 300;
+    padding:10px 0;
+    color:rgb(56, 55, 55);
+}
+.comment-info span 
+{
+    display:block;
+    color:rgb(175, 172, 172);
+    padding:5px 0;
+    font-size:.8rem;
+}
+.comment-info p 
+{
+    padding:10px 10px 20px 0px;
+    color:rgb(128, 126, 126);
+    line-height: 1.8;
+    font-size:1.1rem;
+}
+.comment-info a.reply-btn 
+{
+    padding:10px;
+    font-size:.6rem;
+    color:black;
+    background-color:rgb(230, 230, 230);
+    border-radius:5px;
+    letter-spacing: .1rem;
+}
+.right .contact-form 
+{
+    width:100%;
+}
+.right .contact-form  span 
+{
+    color:rgb(121, 118, 118);
+    padding:10px 0;
+    font-size:.9rem;
+}
+
+/* PRICING.HTML */
+
+.price-table 
+{
+    padding:80px 0;
+    overflow-x: scroll;
+}
+.price-table table 
+{
+    width:1180px;
+}
+.price-table table tr th 
+{
+    padding:30px 0;
+    vertical-align: middle;
+    color:white;
+    position: relative;
+}
+.price-table table thead tr th.orange-head:after 
+{
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    right: 0;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 113px 0 113px;
+    border-color: orange transparent transparent transparent;
+    margin: 0 auto;
+    z-index: 3;
+    box-sizing: border-box;
+}
+.price-table table thead tr th.gray-head:after 
+{
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    right: 0;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 115px 0 115px;
+    border-color: gray transparent transparent transparent;
+    margin: 0 auto;
+    z-index: 3;
+    box-sizing: border-box;
+}
+.price-table table thead tr th.black-head:after 
+{
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    right: 0;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 115px 0 115px;
+    border-color: black transparent transparent transparent;
+    margin: 0 auto;
+    z-index: 3;
+    box-sizing: border-box;
+}
+.price-table table tr td
+{
+    vertical-align: middle;
+    text-align:left;
+    padding:20px 0px;
+}
+.price-table table tr td.bg-gray 
+{
+    background-color:rgb(248, 245, 245);
+    text-align:center;
+}
+.price-table table tr td img 
+{
+    height:110px;
+    width:180px;
+}
+.price-table table tr td h1 
+{
+    font-size:1.2rem;
+    padding:10px;
+    color:rgb(56, 55, 55);
+    font-weight: 300;
+}
+.price-table table tr td.bg-gray > h1 
+{
+    font-size:.9rem;
+    color:rgb(114, 111, 111);
+    font-weight: 600;
+}
+.price-table table tr td.bg-gray > h1  span 
+{
+    display:inline;
+    color:orange;
+    padding:10px 0;
+    font-size:1.3rem;
+}
+.price-table table tr td span 
+{
+    font-size:.9rem;
+    padding:10px;
+    color:rgb(85, 82, 82);
+    font-weight: 600;
+    display:block;
+}
+.price-table table tr td span i 
+{
+    color:orange;
+}
+
+/* MODAL CODE */ 
+/* The Modal (background) */
+.col-full .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    margin:0 auto;
+    text-align:center;
+    width: 80%;
+    overflow:hidden;
+  }
+  .modal-content iframe 
+  {
+     width:80%;
+     height:400px;
+  
+  }
+  /* The Close Button */
+  .close {
+    color: gray;
+    float: right;
+    font-size: 3rem;
+    font-weight: bold;
+    padding:10px 20px;
+    border:0px solid transparent;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: orange;
+    text-decoration: none;
+    cursor: pointer;
+    padding:10px 20px;
+    
+  }
+  .close:after 
+  {
+      content:"";
+      display:table;
+      clear:both;
+  }
+/* END */
